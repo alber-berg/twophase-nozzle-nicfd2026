@@ -1,0 +1,24 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Build artifacts
+build/
+dist/
+
+# OS
+.DS_Store
+
+# Large outputs 
+# results/*.npz
+# results/*.csv

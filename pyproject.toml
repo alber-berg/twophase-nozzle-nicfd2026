@@ -1,0 +1,22 @@
+[project]
+name = "twophase-nozzle-nicfd2026"
+version = "0.1.0"
+description = "Reproducibility repository for 'A non-equilibrium time-marching model for two-phase supersonic nozzle flows' (NICFD 2026)"
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Alberto Bergamin", email = "alber@dtu.dk" },
+]
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "matplotlib",
+    "pyyaml",
+]
+
+[project.optional-dependencies]
+notebooks = ["jupyter"]
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
