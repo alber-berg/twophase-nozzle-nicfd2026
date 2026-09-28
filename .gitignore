@@ -22,3 +22,10 @@ dist/
 # Large outputs 
 # results/*.npz
 # results/*.csv
+
+# Dev files
+tools/
+provenance.yaml
+
+# Generated
+figures/

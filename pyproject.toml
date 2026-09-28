@@ -1,7 +1,7 @@
 [project]
 name = "twophase-nozzle-nicfd2026"
 version = "0.1.0"
-description = "Reproducibility repository for 'A non-equilibrium time-marching model for two-phase supersonic nozzle flows' (NICFD 2026)"
+description = "Case specifications and figure data for 'A non-equilibrium time-marching model for two-phase supersonic nozzle flows' (NICFD 2026)"
 readme = "README.md"
 license = { file = "LICENSE" }
 authors = [
@@ -11,7 +11,6 @@ requires-python = ">=3.10"
 dependencies = [
     "numpy",
     "matplotlib",
-    "pyyaml",
 ]
 
 [project.optional-dependencies]
